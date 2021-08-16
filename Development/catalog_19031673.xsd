@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="musicStore">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="storeDetails" type="storeType"/>
+				<xs:element name="songs" type="songsType" maxOccurs="unbounded"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+
+	<xs:complexType name="storeType">
+		<xs:sequence>
+			<xs:group ref="storeGroup"/>
+		</xs:sequence>	
+	</xs:complexType>
+
+	<xs:group name="storeGroup">
+		<xs:sequence>
+			<xs:element name="registrationNumber" type="xs:string"/>
+			<xs:element name="name" type="xs:string"/>
+			<xs:element name="address" type="addressType"/>
+			<xs:element name="telephoneNumber" type="telephoneNumberType"/>
+			<xs:element name="websiteAddress" type="websiteAddressType"/>
+			<xs:element name="logo" type="xs:string"/>
+			<xs:element name="storeEmail" type="storeEmailType"/>
+		</xs:sequence>
+	</xs:group>
+
+	<xs:complexType name="addressType">
+		<xs:simpleContent>
+			<xs:extension base="xs:string">
+				<xs:attributeGroup ref="codeType"/>
+			</xs:extension>
+		</xs:simpleContent>
+	</xs:complexType>
+
+	<xs:attributeGroup name="codeType">
+		<xs:attribute name="postalCode" type="postalCodeType"/>
+	</xs:attributeGroup>
+
+
+	<xs:simpleType name="postalCodeType">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="DH-56700"/>
+		</xs:restriction>	
+	</xs:simpleType>	
+
+	<xs:simpleType name="telephoneNumberType">
+		<xs:restriction base="xs:string">
+			<xs:pattern value="[0-9]{3}-[0-9]{6}"/>
+		</xs:restriction>	
+	</xs:simpleType>
+
+	<xs:simpleType name="websiteAddressType">
+		<xs:restriction base="xs:string">
+			<xs:pattern value="[a-z]*.[a-z]*.[a-z]*"/>
+		</xs:restriction>	
+	</xs:simpleType>
+
+	<xs:simpleType name="storeEmailType">
+		<xs:restriction base="xs:string">
+			<xs:pattern value="[a-z0-9]*@[a-z]*.[a-z]*"/>
+		</xs:restriction>	
+	</xs:simpleType>
+
+	<xs:complexType name="songsType">
+		<xs:sequence>
+			<xs:group ref="songsGroup"/>
+		</xs:sequence>	
+	</xs:complexType>
+
+	<xs:group name="songsGroup">
+		<xs:sequence>
+			<xs:element name="song" type="songType" maxOccurs="unbounded"/>		
+		</xs:sequence>
+	</xs:group>
+
+	<xs:complexType name="songType">
+		<xs:sequence>
+			<xs:group ref="songGroup"/>
+		</xs:sequence>
+		<xs:attributeGroup ref="songAttGroup"/>
+	</xs:complexType>
+
+	<xs:group name="songGroup">
+		<xs:sequence>
+			<xs:element name="songName" type="songNameType"/>
+			<xs:element name="albumName" type="xs:string" minOccurs="0"/>
+			<xs:element name="director" type="directorType" minOccurs="0"/>
+			<xs:element name="producer" type="producerType" minOccurs="0" maxOccurs="unbounded"/>
+			<xs:element name="writers" type="writersType"/>	
+			<xs:element name="singers" type="singersType"/>
+			<xs:element name="backgroundSinger" type="xs:string" minOccurs="0"/>
+			<xs:element name="releaseYear" type="xs:string"/>
+			<xs:element name="price" type="xs:string"/>
+			<xs:element name="award" type="xs:string" minOccurs="0" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:group>
+
+	<xs:attributeGroup name="songAttGroup">
+		<xs:attribute name="id" type="xs:string"/>
+		<xs:attribute name="genre" type="genreType"/>
+		<xs:attribute name="format" type="xs:string"/>
+	</xs:attributeGroup>
+
+	<xs:simpleType name="genreType">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="Rap"/>
+			<xs:enumeration value="Jazz"/>
+			<xs:enumeration value="Pop"/>
+			<xs:enumeration value="Rock"/>
+			<xs:enumeration value="Country Music"/>
+			<xs:enumeration value="Childrens Music"/>
+			<xs:enumeration value="Dubset"/>
+		</xs:restriction>	
+	</xs:simpleType>
+		
+	<xs:complexType name="songNameType">
+		<xs:simpleContent>
+			<xs:extension base="xs:string">
+				<xs:attribute name="length" type="xs:string" use="required"/>
+			</xs:extension>
+		</xs:simpleContent>
+	</xs:complexType>
+
+	<xs:complexType name="directorType">
+		<xs:simpleContent>
+			<xs:extension base="xs:string">
+				<xs:attribute name="title" type="xs:string" use="optional"/>
+			</xs:extension>
+		</xs:simpleContent>
+	</xs:complexType>
+
+	<xs:complexType name="producerType">
+		<xs:simpleContent>
+			<xs:extension base="xs:string">
+				<xs:attribute name="title" type="xs:string" use="optional"/>
+			</xs:extension>
+		</xs:simpleContent>
+	</xs:complexType>
+
+	<xs:complexType name="writersType">
+		<xs:sequence>
+			<xs:element name="writer" type="writerType" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="writerType">
+		<xs:simpleContent>
+			<xs:extension base="xs:string">
+				<xs:attribute name="title" type="xs:string"/>
+			</xs:extension>
+		</xs:simpleContent>
+	</xs:complexType>
+
+	<xs:complexType name="singersType">
+		<xs:sequence>
+			<xs:element name="singer" type="singerType" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>			
+
+	<xs:complexType name="singerType">
+		<xs:simpleContent>
+			<xs:extension base="xs:string">
+				<xs:attribute name="gender" type="xs:string"/>
+			</xs:extension>
+		</xs:simpleContent>
+	</xs:complexType>
+</xs:schema>

@@ -1,0 +1,346 @@
+* {
+	background-color: rgb(208, 208, 208);
+	display: block;
+	font-family: sans-serif;
+}
+
+logo {
+	float: none;
+	background: url(music.png) no-repeat right;
+	background-size: 130px;
+	width: 1327px;
+	height: 200px;
+	position: absolute;
+	top: -10px;
+}
+
+registrationNumber {
+	color: rgb(11, 108, 154);
+	font-family: serif;
+	font-size: 13px;
+	text-align: right;
+	margin-right: 30px;
+	margin-top: 15px;
+}
+registrationNumber::before {
+	content: "Reg No: ";	
+}
+
+name {
+	color: rgb(155, 54, 46);
+	font-family: sans-serif;
+	font-weight: bold;
+	font-size: 40px;
+	text-align: center;
+}
+
+address, telephoneNumber {
+	font-family: sans-serif;
+	font-style: italic;
+	font-size: 14px;
+	text-align: center;
+	padding-top: 2px;
+}
+
+address::before {
+	content: "(" attr(postalCode) ") ";
+}
+
+telephoneNumber::before {
+	content: "Tel ph: "; 
+}
+
+websiteAddress {
+	color: rgb(11, 108, 154);	
+	font-family: serif;
+	font-size: 13px;
+	text-align: center;
+}
+
+storeEmail {
+	color: rgb(11, 108, 154);
+	font-family: serif;
+	font-size: 13px;
+	position: absolute;
+	top: 155px;
+	right: 10px;
+}
+
+storeEmail::before {
+	content: "Email: ";
+}
+
+songs {
+	border: 2px solid;
+	border-radius: 20px;
+	background: rgb(224, 224, 209);
+	height: 1800px;
+	margin-left: 8px;
+	margin-right: 8px;
+	margin-bottom: 8px;
+	margin-top: 45px;
+}
+
+song[id="S-01"] {
+	border: 2px solid;
+	border-radius: 20px;
+	position: absolute;
+	height: 260px;
+	width: 300px;
+	top: 250px;
+	left: 100px;
+	padding-top: 40px;
+	padding-left: 40px;
+}
+
+song[id="S-02"] {
+	border: 2px solid;
+	border-radius: 20px;	
+	position: absolute;
+	height: 260px;
+	width: 300px;
+	top: 250px;
+	left: 480px;
+	padding-top: 40px;
+	padding-left: 40px;
+}
+
+song[id="S-03"] {
+	border: 2px solid;
+	border-radius: 20px;
+	position: absolute;
+	height: 260px;
+	width: 300px;
+	top: 250px;
+	left: 860px;
+	padding-top: 40px;
+	padding-left: 40px;
+}
+
+song[id="S-04"] {
+	border: 2px solid;
+	border-radius: 20px;
+	position: absolute;
+	height: 260px;
+	width: 300px;
+	top: 580px;
+	left: 100px;
+	padding-top: 40px;
+	padding-left: 40px;
+}
+
+song[id="S-05"] {
+	border: 2px solid;
+	border-radius: 20px;
+	position: absolute;
+	height: 260px;
+	width: 300px;
+	top: 580px;
+	left: 480px;
+	padding-top: 40px;
+	padding-left: 40px;
+}
+
+song[id="S-06"] {
+	border: 2px solid;
+	border-radius: 20px;
+	position: absolute;
+	height: 260px;
+	width: 300px;
+	top: 580px;
+	left: 860px;
+	padding-top: 40px;
+	padding-left: 40px;
+}
+
+song[id="S-07"] {
+	border: 2px solid;
+	border-radius: 20px;
+	position: absolute;
+	height: 260px;
+	width: 300px;
+	top: 910px;
+	left: 100px;
+	padding-top: 40px;
+	padding-left: 40px;
+}
+
+song[id="S-08"] {
+	border: 2px solid;
+	border-radius: 20px;
+	position: absolute;
+	height: 260px;
+	width: 300px;
+	top: 910px;
+	left: 480px;
+	padding-top: 40px;
+	padding-left: 40px;
+}
+
+song[id="S-09"] {
+	border: 2px solid;
+	border-radius: 20px;
+	position: absolute;
+	height: 260px;
+	width: 300px;
+	top: 910px;
+	left: 860px;
+	padding-top: 40px;
+	padding-left: 40px;
+}
+
+song[id="S-10"] {
+	border: 2px solid;
+	border-radius: 20px;
+	position: absolute;
+	height: 260px;
+	width: 300px;
+	top: 1240px;
+	left: 100px;
+	padding-top: 40px;
+	padding-left: 40px;
+}
+
+song[id="S-11"] {
+	border: 2px solid;
+	border-radius: 20px;
+	position: absolute;
+	height: 260px;
+	width: 300px;
+	top: 1240px;
+	left: 480px;
+	padding-top: 40px;
+	padding-left: 40px;
+}
+
+song[id="S-12"] {
+	border: 2px solid;
+	border-radius: 20px;
+	position: absolute;
+	height: 260px;
+	width: 300px;
+	top: 1240px;
+	left: 860px;
+	padding-top: 40px;
+	padding-left: 40px;
+}
+
+song[id="S-13"] {
+	border: 2px solid;
+	border-radius: 20px;
+	position: absolute;
+	height: 260px;
+	width: 300px;
+	top: 1570px;
+	left: 100px;
+	padding-top: 40px;
+	padding-left: 40px;
+}
+
+song[id="S-14"] {
+	border: 2px solid;
+	border-radius: 20px;
+	position: absolute;
+	height: 260px;
+	width: 300px;
+	top: 1570px;
+	left: 480px;
+	padding-top: 40px;
+	padding-left: 40px;
+}
+
+song[id="S-15"] {
+	border: 2px solid;
+	border-radius: 20px;
+	position: absolute;
+	height: 260px;
+	width: 300px;
+	top: 1570px;
+	left: 860px;
+	padding-top: 40px;
+	padding-left: 40px;
+}
+
+songName {
+	color: rgb(183, 107, 46);
+	text-align: center;
+	padding-bottom: 20px;
+	font-family: 'ludcida Handwriting';
+	font-size: 25px;
+	font-style: italic;
+}
+
+songName::after {
+	content: " (" attr(length) ")" ;
+	font-size: 10px;
+	color: black;
+}
+
+song::after {
+	color: rgb(183, 107, 46);
+	content: "Genre: " attr(genre) "";
+	font-size: 12px;
+	float: right;
+	margin-right: 20px;
+	border-style: dotted dashed solid double;
+	padding: 3px 10px 3px 10px;
+}
+
+albumName::before {
+	content: "Album name: ";
+	font-weight: bold;
+}
+
+director::before {
+	content: "Director: ";
+	font-weight: bold;
+}
+
+producer::before {
+	content: "Producer: ";
+	font-weight: bold;
+}
+
+writer::before {
+	content: "Writer: ";
+	font-weight: bold;
+}
+
+singer::before {
+	content: "Singer: ";
+	font-weight: bold;
+}
+
+singer::after {
+	content: " ("attr(gender) ")";
+	font-weight: bold;
+	font-size: 10px;
+}
+
+backgroundSinger::before {
+	content: "Backgorund Singer: ";
+	font-weight: bold;
+}
+
+releaseYear::before {
+	content: "Release Year: ";
+	font-weight: bold;
+}
+
+price::before {
+	content: "Price: ";
+	font-weight: bold;
+}
+
+award::before {
+	content: "Award: ";
+	font-weight: bold;
+}
+
+albumName,director,producer,writer,singer {
+	display: list-item;
+}
+
+backgroundSinger,releaseYear,price, award {
+	display: list-item;
+}

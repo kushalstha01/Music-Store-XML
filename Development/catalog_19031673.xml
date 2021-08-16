@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="catalog_19031673.css"?>
+<!DOCTYPE musicStore SYSTEM "catalog_19031673.dtd">
+<musicStore>
+	<storeDetails>		
+		<registrationNumber>DH-99111632</registrationNumber>
+		<name>Brother Music Store</name>
+		<address postalCode="DH-56700">Dhrana-10, Sainik Chowk</address>
+		<telephoneNumber>025-520420</telephoneNumber>
+		<websiteAddress>www.brothermusicstore.com</websiteAddress>
+		<logo></logo>
+		<storeEmail>brotherstore12@gmail.com</storeEmail>
+	</storeDetails>
+	<songs>
+		<song id="S-01" genre="Rap" format="Online">
+			<songName length="5:23">"Lose Yourself"</songName>
+			<producer title="Mr.">Eminem</producer>
+			<producer title="Mr.">Luis Resto</producer>
+			<producer title="Mr.">Jeff Bass</producer>
+			<writers>
+				<writer title="Mr.">Eminem</writer>
+			</writers>
+			<singers>
+				<singer gender="Male">Eminem</singer>
+			</singers>
+			<releaseYear>2015</releaseYear>
+			<price>Rs 245</price>
+			<award>Academy Award</award>
+			<award>MTV Award</award>
+			<award>Grammy Award</award>
+		</song>
+		<song id="S-02" genre="Jazz" format="Cassette">
+			<songName length="3:15">"All The Things You Are"</songName>
+			<albumName>Ella Fitzgerald</albumName>
+			<director title="Mr.">Jerome kern</director>
+			<producer title="Mr.">Michael Cuscuna</producer>
+			<writers>
+				<writer title="Mr.">Oscar Hammerstein II</writer>
+			</writers>
+			<singers>
+				<singer gender="Male">Jerome Kem</singer>
+			</singers>
+			<releaseYear>1963</releaseYear>
+			<price>Rs 130</price>
+		</song>
+		<song id="S-03" genre="Pop" format="CD">
+			<songName length="3:39">"Because of You"</songName>
+			<albumName>Breakaway</albumName>
+			<director title="Mr.">Vadim Perelman</director>
+			<producer title="Mr.">David Hodges</producer>
+			<writers>
+				<writer title="Ms.">Kelly Clarkson</writer>
+			</writers>
+			<singers>
+				<singer gender="Female">Kelly Clarkson</singer>
+			</singers>
+			<releaseYear>2005</releaseYear>
+			<price>Rs 150</price>
+		</song>
+		<song id="S-04" genre="Jazz" format="CD">
+			<songName length="3:10">"Round Midnight"</songName>
+			<producer title="Mr.">George Avakian</producer>
+			<writers>
+				<writer title="Mr.">Thelonoius Monk</writer>
+			</writers>
+			<singers>
+				<singer gender="Female">Julie London</singer>
+			</singers>
+			<backgroundSinger>Jackie Paris</backgroundSinger>
+			<releaseYear>1944</releaseYear>
+			<price>Rs 130</price>
+			<award>Academy Award</award>
+		</song>
+		<song id="S-05" genre="Rock" format="CD">
+			<songName length="6:48">"Paradise City"</songName>
+			<albumName>Appetite for Destruction</albumName>
+			<director title="Mr.">Ash Avildsen</director>
+			<producer title="Mr.">Mike Clink</producer>
+			<writers>
+				<writer title="Mr.">Axl Rose</writer>
+				<writer title="Mr.">Izzy Strandin</writer>
+				<writer title="Mr.">Steven Adler</writer>
+			</writers>
+			<singers>
+				<singer gender="Male">Axl Rose</singer>
+			</singers>
+			<releaseYear>1989</releaseYear>
+			<price>Rs 190</price>
+		</song>	
+		<song id="S-06" genre="Rock" format="CD">
+			<songName length="6:28">"Nothing Else Matter"</songName>
+			<albumName>Metallica</albumName>
+			<producer title="Mr.">James Hetfield Lars Ulrich</producer>
+			<writers>
+				<writer title="Mr.">James Hetfield Lars Ulrich</writer>
+			</writers>
+			<singers>
+				<singer gender="Male">James Hetfield Lars Ulrich</singer>
+			</singers>
+			<releaseYear>1992</releaseYear>
+			<price>Rs 135</price>
+		</song>
+		<song id="S-07" genre="Pop" format="CD">
+			<songName length="3:48">"All I Need"</songName>
+			<albumName>Moon Safari</albumName>
+			<producer title="Mr.">Glen Ballard Clif Magness</producer>
+			<writers>
+				<writer title="Mr.">Nicolas Godin</writer>
+			</writers>
+			<singers>
+				<singer gender="Male">Jack Wagner</singer>
+			</singers>
+			<releaseYear>1984</releaseYear>
+			<price>Rs 300</price>
+		</song>
+		<song id="S-08" genre="Country Music" format="Online">
+			<songName length="3:57">"Shallow"</songName>
+			<producer title="Mr.">Ben Rice</producer>
+			<writers>
+				<writer title="Mr.">Andrew Wyatt</writer>
+				<writer title="Mr.">Mark Ronson</writer>
+			</writers>
+			<singers>
+				<singer gender="Male">Bradley Cooper</singer>
+				<singer gender="Female">Lady Gaga</singer>
+			</singers>
+			<releaseYear>2018</releaseYear>
+			<price>Rs 250</price>
+			<award>Academy Award</award>
+		</song>
+		<song id="S-09" genre="Childrens Music" format="Online">
+			<songName length="4:02">"A Whole New World"</songName>
+			<director title="Mr.">Alan Menken</director>
+			<producer title="Mr.">Alan Menken</producer>
+			<producer title="Mr.">Tim Rice</producer>
+			<writers>
+				<writer title="Mr.">Tim Rice</writer>
+			</writers>
+			<singers>
+				<singer gender="Male">Zayn Malik</singer>
+				<singer gender="Female">Zhavia Ward</singer>
+			</singers>
+			<releaseYear>2018</releaseYear>
+			<price>Rs 300</price>
+		</song>
+		<song id="S-10" genre="Rock" format="Online">
+			<songName length="6:38">"Time Waits for No one"</songName>
+			<albumName>It's Only Rock'n Roll</albumName>
+			<director title="Mr.">Mamoru Hosoda's</director>
+			<producer title="Mr.">Dave Clark</producer>
+			<writers>
+				<writer title="Mr.">Roger Hodgson</writer>
+				<writer title="Mr.">Clifford Dinsmore</writer>
+			</writers>
+			<singers>
+				<singer gender="Male">Freddie Mercury</singer>
+			</singers>
+			<backgroundSinger>Roger Hodgson</backgroundSinger>
+			<releaseYear>1974</releaseYear>
+			<price>Rs 240</price>
+		</song>
+		<song id="S-11" genre="Rock" format="Cassette">
+			<songName length="3:01">"Jump In My Car"</songName>
+			<albumName>Here We are</albumName>
+			<producer title="Mr.">Harry Vanda</producer>
+			<writers>
+				<writer title="Mr.">Ted Mulry</writer>
+			</writers>
+			<singers>
+				<singer gender="Male">Harry Vanda</singer>
+			</singers>
+			<backgroundSinger>Les Hall</backgroundSinger>
+			<releaseYear>1974</releaseYear>
+			<price>Rs 290</price>
+		</song>
+		<song id="S-12" genre="Dubset" format="Online">
+			<songName length="4:59">"Like This"</songName>
+			<director title="Mr.">Jeremy Sazon</director>
+			<writers>
+				<writer title="Mr.">Jeremy Sazon</writer>
+			</writers>
+			<singers>
+				<singer gender="Male">Jeremy Sazon</singer>
+			</singers>
+			<releaseYear>2019</releaseYear>
+			<price>Rs 250</price>
+		</song>
+		<song id="S-13" genre="Country Music" format="Online">
+			<songName length="4:03">"Drunk"</songName>
+			<albumName>And I dont Wanna Go Home</albumName>
+			<producer title="Mr.">Brandon Paddock</producer>
+			<writers>
+				<writer title="Mrs.">Ellen King</writer>
+			</writers>
+			<singers>
+				<singer gender="Female">Elle King</singer>
+				<singer gender="Female">Miranda Lambert</singer>
+			</singers>
+			<releaseYear>2021</releaseYear>
+			<price>Rs 300</price>
+		</song>
+		<song id="S-14" genre="Country Music" format="Online">
+			<songName length="6:43">"Brad Paisley"</songName>
+			<producer title="Ms.">Alison Krauss</producer>
+			<writers>
+				<writer title="Mr.">Jon Randall</writer>
+			</writers>
+			<singers>
+				<singer gender="Male">Whiskey Lullaby</singer>
+			</singers>
+			<backgroundSinger>Alison Krauss</backgroundSinger>
+			<releaseYear>2010</releaseYear>
+			<price>Rs 320</price>
+		</song>
+		<song id="S-15" genre="Rap" format="CD">
+			<songName length="4:17">"Mockingbird"</songName>
+			<writers>
+				<writer title="Mr.">Eminem</writer>
+			</writers>
+			<singers>
+				<singer gender="Male">Eminem</singer>
+			</singers>
+			<releaseYear>2009</releaseYear>
+			<price>Rs 265</price>
+		</song>
+	</songs>
+</musicStore>

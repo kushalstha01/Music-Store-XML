@@ -1,0 +1,36 @@
+<!ELEMENT musicStore (storeDetails,songs)>
+<!ELEMENT storeDetails (registrationNumber,name,address,telephoneNumber,websiteAddress,logo,storeEmail?)>
+<!ELEMENT registrationNumber (#PCDATA)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT address (#PCDATA)>
+<!ELEMENT telephoneNumber (#PCDATA)>
+<!ELEMENT websiteAddress (#PCDATA)>
+<!ELEMENT logo (#PCDATA)>
+<!ELEMENT storeEmail (#PCDATA)>
+
+<!ATTLIST address postalCode CDATA #REQUIRED>
+
+<!ELEMENT songs (song+)>
+<!ELEMENT song (songName,albumName?,director?,producer*,writers,singers,backgroundSinger?,releaseYear,price,award*)>
+<!ELEMENT songName (#PCDATA)>
+<!ELEMENT albumName (#PCDATA)>
+<!ELEMENT director (#PCDATA)>
+<!ELEMENT producer (#PCDATA)>
+<!ELEMENT writers (writer+)>
+<!ELEMENT writer (#PCDATA)>
+<!ELEMENT singers (singer+)>
+<!ELEMENT singer (#PCDATA)>
+<!ELEMENT backgroundSinger (#PCDATA)>
+<!ELEMENT releaseYear (#PCDATA)>
+<!ELEMENT price (#PCDATA)>
+<!ELEMENT award (#PCDATA)>
+
+<!ATTLIST song id CDATA #REQUIRED>
+<!ATTLIST song genre CDATA #REQUIRED>
+<!ATTLIST song format (CD|Cassette|Online) #IMPLIED>
+<!ATTLIST songName length CDATA #REQUIRED>
+<!ATTLIST director title (Mr.|Ms.|Mrs.) #IMPLIED>
+<!ATTLIST producer title (Mr.|Ms.|Mrs.) #IMPLIED>
+<!ATTLIST writer title (Mr.|Ms.|Mrs.) #IMPLIED>
+<!ATTLIST director title (Mr.|Ms.|Mrs.) #IMPLIED>
+<!ATTLIST singer gender (Male|Female) #REQUIRED>
